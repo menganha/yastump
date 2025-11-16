@@ -63,11 +63,11 @@ Please eliminate all the letters on screen!
 ### Linux
 If all these requirements are met run the following commands on a terminal
 ```
-git clone --recurse-submodules https://github.com/menganha/2d_game_cpp.git
-cd 2d_game_cpp
+git clone --recurse-submodules https://github.com/menganha/yastump.git
+cd yastump
 mkdir build
+cmake -B build -S .
 cmake --build build
-cmake -G Ninja -B build -S .
 ```
 this will clone the repo into a local folder together with the [Entt](https://github.com/skypjack/entt)
 dependency and build the game. To run it, simply execute the `app` application.
